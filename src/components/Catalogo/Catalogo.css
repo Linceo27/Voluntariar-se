@@ -1,0 +1,34 @@
+.container-catalogo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    justify-content: center;
+    margin-top: 10%;
+    gap:10%;
+    margin-left: 10%;
+}
+
+.bloco1,.bloco2,.bloco3{
+    border-radius: 12px;
+    text-align: center;
+    background-color: #487d76;
+}
+
+.bloco1:hover{
+    transition: all 0.8s;
+    background-color: antiquewhite;
+    transform: scale(1,0.9);
+
+}
+.bloco2:hover{
+    transition: all 0.8s;
+    background-color: antiquewhite;
+    transform: scale(1,0.9);
+}
+.bloco3:hover{
+    transition: all 0.8s;
+    background-color: antiquewhite;
+    transform: scale(1,0.9);
+
+}

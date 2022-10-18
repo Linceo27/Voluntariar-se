@@ -1,0 +1,23 @@
+#fixo-trabalhe-conosco {
+    display:none;
+ }
+ 
+ label { 
+   -webkit-appearance: push-button;
+   -moz-appearance: button; 
+   display: inline-block;
+   cursor: pointer;
+   padding: 5px;
+ }
+ 
+ /* CSS padrão da div */
+ #texto-variavel {
+    display:none;
+    align-items: flex-start;
+ }
+ 
+ /* CSS quando o checkbox está marcado */
+#fixo-trabalhe-conosco:checked ~ #texto-variavel {
+    display:block;
+ }
+ 

@@ -1,0 +1,26 @@
+.container-fundadores{
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    justify-content: space-evenly;
+
+}
+
+.nicole-imagem{
+    width: 40%;
+    border: solid 5px #C14543;
+    border-radius: 50%;
+}
+
+.pedro-imagem{
+    width: 40%;
+    border: solid 5px #F7B21A;
+    border-radius: 50%;
+}
+
+.thaif-imagem{
+    width: 40%;
+    border: solid 5px #1DAA4E;
+    border-radius: 50%;
+}
+

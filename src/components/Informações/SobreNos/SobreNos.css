@@ -1,0 +1,22 @@
+#fixo-sobrenos {
+    display:none;
+ }
+ 
+ label { 
+   -webkit-appearance: push-button;
+   -moz-appearance: button; 
+   display: inline-block;
+   cursor: pointer;
+   padding: 5px;
+ }
+ 
+ /* CSS padrão da div */
+ #texto-sobrenos {
+    display:none;
+ }
+ 
+ /* CSS quando o checkbox está marcado */
+#fixo-sobrenos:checked ~ #texto-sobrenos {
+    display:block;
+ }
+ 

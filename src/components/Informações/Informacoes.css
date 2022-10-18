@@ -1,0 +1,9 @@
+.container-info{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: aliceblue;
+    width: 100%;
+    justify-content: space-around;
+    opacity: 70%;
+}
