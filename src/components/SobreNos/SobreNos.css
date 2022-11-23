@@ -1,0 +1,28 @@
+#fixo-sobrenos { /*titulo bloqueado, não move, e clicável*/
+    display:none;
+ }
+
+ #fixo-sobrenos-titulo{
+   background-color: aliceblue;
+
+ }
+ 
+ label { 
+   -webkit-appearance: push-button;
+   -moz-appearance: button; 
+   display: inline-block;
+   cursor: pointer;
+   padding: 5px;
+ }
+ 
+ /* CSS padrão da div */
+ #texto-sobrenos {
+    display:none;
+    background-color: antiquewhite;
+ }
+ 
+ /* CSS quando o checkbox está marcado */
+#fixo-sobrenos:checked ~ #texto-sobrenos {
+    display:block;
+ }
+ 

@@ -1,0 +1,27 @@
+#corpo {
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: url("https://a.cdn-hotels.com/gdcs/production65/d66/14724f91-e713-45a4-89c2-b5aa6e7a9420.jpg");
+}
+
+.container-header{
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  gap:10%;
+  background: url('../../assets/capaheader.png');
+
+}
+#header-titulo{
+  background-color: rgb(211, 208, 214);
+  text-align: center;
+  color: rgb(30, 77, 119);
+  font-family:"Poppins";
+  font-size:500%;
+
+}
+#logo{
+  width: 200px;
+
+}

@@ -1,0 +1,7 @@
+.container-educacao {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    align-items: center;
+    background-image: url('../../assets/liceuPernambucano.jpg');
+}

@@ -1,0 +1,93 @@
+.container-catalogo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 10%;
+    gap:10%;
+    margin-bottom: 10%;
+}
+
+.bloco1,.bloco2,.bloco3,.bloco4,.bloco5{
+    border-radius: 12px;
+    text-align: center;
+    background-color: #065c50;
+}
+
+.bloco1:hover{
+    transition: all 0.1s;
+    background-color: antiquewhite;
+
+}
+.bloco2:hover{
+    transition: all 0.1s;
+    background-color: antiquewhite;
+}
+.bloco3:hover{
+    transition: all 0.1s;
+    background-color: antiquewhite;
+
+}
+.bloco4:hover{
+    transition: all 0.1s;
+    background-color: antiquewhite;
+}
+
+.bloco1 button{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 100%;
+   border-radius: 10%;
+   color:  #000000 ;
+
+}
+
+.bloco2 button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100%;
+    border-radius: 10%;
+    color:  #000000 ;
+ 
+ }
+
+ .bloco3 button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100%;
+    border-radius: 10%;
+    color:  #000000 ;
+ 
+ }
+
+.bloco4 button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100%;
+    border-radius: 10%;
+    color:  #000000 ;
+ 
+ }
+
+
+ .bloco1 button:hover{
+    transition: all 0.1s;
+    background-color: rgb(75, 214, 44);
+    transform: scale(1,0.9);
+}
+
+.bloco2 button:hover{
+    transition: all 0.1s;
+    background-color: rgb(75, 214, 44);
+    transform: scale(1,0.9);
+}
+
+
+.bloco3 button:hover{
+    transition: all 0.1s;
+    background-color: rgb(75, 214, 44);
+    transform: scale(1,0.9);
+}
+
+
+.bloco4 button:hover{
+    transition: all 0.1s;
+    background-color: rgb(75, 214, 44);
+    transform: scale(1,0.9);
+}
+
