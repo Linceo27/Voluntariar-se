@@ -1,46 +1,33 @@
-import "./Style.css"
+import "./Style.css";
 import logo from "../../assets/logo.png";
 import SubHeader from "../../components/SubHeader/Index";
 import Catalogo from "../../components/Catalogo/Index";
 import Informacoes from "../../components/Informações/Informacoes";
 
-
-export default function Home(){
-  const logoHome = logo
-  return(
-    <div className = 'container-home'>
+export default function Home() {
+  const logoHome = logo;
+  return (
+    <div  className="container-home-geral">
+      <div  className="container-home">
         <div className="container-header">
+          <img id="logo" src={logoHome} alt="Logo Voluntariar-se" />
           <h1 id="header-titulo">VOLUNTARIAR-SE</h1>
-          <img id = "logo" src = {logoHome} alt = "Logo Voluntariar-se"/>
+        </div>
+        <div id="container-subheader-home">
+          <SubHeader />
+        </div>
       </div>
       <div id="corpo">
-        <div id="container-subheader-home">
-          <SubHeader/>
-        </div>
         <div id="container-catalogo-home">
-          <Catalogo/>
+          <Catalogo />
         </div>
         <div id="container-informações-home">
-          <Informacoes/>
+          <Informacoes />
         </div>
       </div>
-
     </div>
-  )
+  );
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*import "./Style.css";
 import logo from "../../assets/logo.png";

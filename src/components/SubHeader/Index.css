@@ -5,7 +5,6 @@
 }
 
 .container-subheader-busca{
-    margin-top: 12%;
     margin-left: 14%;
     display: flex;
     flex-direction: row;
@@ -14,7 +13,6 @@
 }
 
 .container-subheader-botoes{
-    margin-top: 5%;
     display:flex;
     justify-content: center;
     flex-direction: row;

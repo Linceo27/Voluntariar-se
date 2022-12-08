@@ -1,16 +1,45 @@
-import BGLoginCadastro from '../../components/Layout/BGLoginCadastro'
-import SetaVoltar from '../../components/SetaVoltar/SetaVoltar'
-import './Cadastro.css'
-export default Cadastro
-function Cadastro(){
-    return(
-    <div><SetaVoltar/> 
-    <BGLoginCadastro>
-<input type = "text" value = "nome" placeholder = "Nome"/>
-    </BGLoginCadastro></div>
-    )
+import BGLoginCadastro from "../../components/Layout/BGLoginCadastro";
+import SetaVoltar from "../../components/SetaVoltar/SetaVoltar";
+import logo from "../../assets/logo.png";
+import "./Cadastro.css";
+export default Cadastro;
+function Cadastro() {
+    const cpfInput = document.querySelector("#cpf-cadastro")
+
+  return (
+    <div>
+      <SetaVoltar />
+     
+        <form method="post" className="form-cadastro">
+          <img src={logo} alt="Voluntariar-se" />
+          <span id="titulo-form-cadastro"> Preencha as suas Informações </span>
+          <div className="input-cadastro">
+            <label for = "Nome">Nome</label>
+            <input name = "nome-cadastro" type = 'text' id="nome-cadastro" placeholder="Nome"/>
+            <label for = "Sobrenome">Sobrenome</label>
+            <input name = "sobrenome-cadastro" type = 'text' id="sobrenome-cadastro" placeholder="Sobrenome"/>
+            <label for = "DataNascimento">Data de Nascimento:</label>
+            <input name = "data-nascimento-cadastro" type = 'date' id="data-nascimento-cadastro"/>
+            <label for = "CPF">CPF</label>
+            <input name = "cpf-cadastro" autoComplete="off" maxLength={11} pattern="\d{3}\.?\d{3}\.?\d{3}-?\d{2}" type = 'text' id="cpf-cadastro" placeholder="cpf"/>
+            <label for = "CEP">CEP:</label>
+            <input name="cep-cadastro" type="text" maxLength={15}/>
+            <div id="inputs-causas">
+                <label for = "causasInteresse">Causas de Interesse</label>
+                <input type="checkbox" value="Educação"  name="causas"/>Educação
+                <input type="checkbox" value="Direitos Civis"  name="causas"/> Direitos Civis
+                <input type="checkbox" value="Saúde"  name="causas"/>Saúde
+                <input type="checkbox" value="Moradia"  name="causas"/> Moradia
+            </div>
+            <label for = "dataNascimento">Data Nascimento: <input name="dataNascimento" type="date"/> </label>
+
+            
+          </div>
+        </form>
+    </div>
+  );
 }
-   /*<div>
+/*<div>
         <SetaVoltar/> 
             <div id="modal" className="animar">
             <h1>Cadastro</h1>
@@ -72,4 +101,4 @@ function Cadastro(){
        </div>
 
     
-   */ 
+   */
