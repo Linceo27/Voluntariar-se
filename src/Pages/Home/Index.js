@@ -3,6 +3,7 @@ import logo from "../../assets/logo.png";
 import SubHeader from "../../components/SubHeader/Index";
 import Catalogo from "../../components/Catalogo/Index";
 import Informacoes from "../../components/Informações/Informacoes";
+import Modal from "../../components/Modal/Index"
 
 export default function Home() {
   const logoHome = logo;
@@ -22,11 +23,20 @@ export default function Home() {
           <Catalogo />
         </div>
         <div id="container-informações-home">
-          <Informacoes />
+          <br>
+          </br>
         </div>
       </div>
+      <Modal/>
+      
     </div>
   );
+
+
+
+
+
+  
 }
 
 /*import "./Style.css";

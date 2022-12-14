@@ -9,6 +9,15 @@ function Moradia() {
       <SetaVoltar />
       <h1> MORADIA </h1>
       <Catalogo />
+
+      <br>
+        
+        
+
+
+        
+        
+        </br>
     </div>
   );
 }

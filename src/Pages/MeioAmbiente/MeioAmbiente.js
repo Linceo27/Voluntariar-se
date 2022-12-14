@@ -9,6 +9,15 @@ function MeioAmbiente() {
       <SetaVoltar />
       <h1>MEIO AMBIENTE</h1>
       <Catalogo />
+
+      <br>
+        
+        
+
+
+        
+        
+        </br>
     </div>
   );
 }

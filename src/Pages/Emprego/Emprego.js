@@ -9,6 +9,14 @@ function Emprego() {
       <SetaVoltar />
       <h1>emprego</h1>
       <Catalogo />
+      <br>
+        
+        
+
+
+        
+        
+        </br>
     </div>
   );
 }

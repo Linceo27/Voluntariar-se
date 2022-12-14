@@ -1,9 +1,42 @@
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .container-home-geral{
   background-attachment: scroll;
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-image: url("https://a.cdn-hotels.com/gdcs/production65/d66/14724f91-e713-45a4-89c2-b5aa6e7a9420.jpg");
+  background-repeat: repeat;
+  background-size: contain;
+  background-image: url("../../../src/assets/bgRUABJESUS.png");
 
 }
 .container-home{

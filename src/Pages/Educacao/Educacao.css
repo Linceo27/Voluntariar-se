@@ -1,7 +1,6 @@
 .container-educacao {
-    height: 100%;
-    background-repeat: no-repeat;
-    background-size: auto;
-    align-items: center;
-    background-image: url('../../assets/liceuPernambucano.jpg');
+    background-attachment: scroll;
+  background-repeat: repeat;
+  background-size: contain;
+  background-image: url("../../../src/assets/bgRUABJESUS.png");
 }

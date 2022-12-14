@@ -12,7 +12,7 @@ import LoginPage from '../../Pages/Login/LoginPage'
 export default function RotasPublicas() {
   return (
     //o path leva até o caminho, a rota raiz é a barra e o elemento deve ser colocado entre chaves e < > porque senão não é reconhecido
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Educacao" element={<Educacao />} />

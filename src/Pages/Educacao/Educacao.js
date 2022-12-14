@@ -7,6 +7,14 @@ export default function Educacao() {
         <SetaVoltar />
         <h1>EDUCAÇÃO</h1>
         <Catalogo />
+        <br>
+        
+        
+
+
+        
+        
+        </br>
       </div>
   );
 }

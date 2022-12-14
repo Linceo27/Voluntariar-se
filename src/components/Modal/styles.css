@@ -1,0 +1,119 @@
+.select-wrapper .select2-container{
+    width: 263px !important;
+    height: 50px;
+    outline: 0px !important;
+}
+.select-wrapper .select2-container > span{
+    outline: 0px !important;
+}
+.select2-container--default .select2-selection--single,
+.select2-container--default .select2-selection--single .select2-selection__arrow{
+    height: 100% !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered{
+    line-height: 50px !important;
+    color: #2A2A2A !important;
+    font-family: "karmalight" !important;
+    font-size: 18px !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow b{
+    border-color: #2a2a2a transparent transparent transparent !important;
+    border-width: 5px 4px 0 4px !important;
+}
+.select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b{
+    border-color: #2980B9 transparent transparent transparent !important;
+    border-width: 5px 4px 0 4px !important;
+}
+.select2-container .select2-selection--single .select2-selection__rendered{
+    padding-left: 16px !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow{
+    right: 16px !important;
+    width: auto !important;
+}
+.select2-container--default .select2-selection--single,
+.select2-container--default .select2-selection--multiple{
+    border: 1px solid #2A2A2A !important;    
+    border-radius: 0px !important;
+}
+.select2-container--default .select2-selection--single{
+    border-radius: 0px !important;
+}
+.select2-container--open .select2-dropdown{
+    background: #F1F1F2 !important;
+    border: 0px !important;
+}
+.select2-container--default .select2-results__option--highlighted[aria-selected],
+.select2-container--default .select2-results__option[aria-selected=true]{
+    background: #D0D2D3 !important;
+    color: #2A2A2A !important;
+}
+.select2-results__option{
+    padding: 10px 15px!important;
+    height: 36px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    line-height: 16px;
+}
+.select2-dropdown{
+    border-radius: 0px !important;
+}
+.select2-results{
+    padding-bottom: 10px !important;
+}
+.select2-container--default .select2-search--inline .select2-search__field{
+    border: 0px !important;
+    margin: 0px !important;
+    outline: 0px !important;
+}
+.select2-container--default.select2-container--focus .select2-selection--multiple,
+.select2-container--default .select2-selection--multiple .select2-selection__rendered,
+.select2-container .select2-search--inline,
+.select2-container--default .select2-search--inline .select2-search__field,
+.select2-container--default .select2-selection--multiple{
+    height: 50px;    
+} 
+.select2-container--default.select2-container--focus .select2-selection--multiple,
+.select2-container--default.select2-container--focus .select2-selection--single{
+    border: 1px solid #2980B9!important;
+}
+.select2-container .select2-search--inline .select2-search__field{
+    padding-left: 16px!important;
+}
+.select2-results__option[role="group"]{
+    height: auto;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.select2-container--default .select2-results__group{
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    font-size: 18px;
+    font-family: "karmalight";
+    font-weight: normal;
+    color: #2A2A2A;
+}
+.select2-results__option[role="group"] .select2-results__option{
+    padding: 10px 30px!important;
+    font-family: 'karmalight';
+    font-size: 16px;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice{
+    border: 1px solid #aaa !important;
+    border-radius: 0px !important;
+    margin-left: 5px !important;
+    margin-top: 13px !important;
+    margin-right: 0px !important;
+}
+.select2-container .select2-search--inline,
+.select2-container--default .select2-search--inline .select2-search__field{
+    outline: 0px !important;
+    box-shadow: none !important;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice{
+    background: #fff !important;
+}
+.select2-container--default .select2-selection--single{
+    outline: 0px !important;
+}
